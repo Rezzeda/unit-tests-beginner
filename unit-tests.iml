@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Sem_2/Tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sem_2/hw/Test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sem_3/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Sem_4/Tests" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -44,6 +45,42 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/mockito-core-5.6.0.jar!/" />
+        </CLASSES>
+      <JAVADOC />
+    <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/byte-buddy-1.14.9.jar!/" />
+        </CLASSES>
+      <JAVADOC />
+    <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="byte-buddy-agent-1.14.9.jar!/" />
+        </CLASSES>
+      <JAVADOC />
+    <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="objenesis-3.3.jar!/" />
+        </CLASSES>
+      <JAVADOC />
+    <SOURCES />
       </library>
     </orderEntry>
   </component>
